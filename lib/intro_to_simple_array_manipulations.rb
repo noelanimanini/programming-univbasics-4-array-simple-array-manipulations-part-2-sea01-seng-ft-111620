@@ -1,5 +1,5 @@
 def using_concat(arrays)
-@my_favorite_things.length = 4 
+@my_favorite_things.length = 4
 @all_my_favs = []
 
 while @my_favorite_things > 2
@@ -9,4 +9,4 @@ while @my_favorite_things > 2
 
 puts ["raindrops on roses", "whiskers on kittens"].concat([ "sports cars", "flatiron school"])
 
-end 
+end
