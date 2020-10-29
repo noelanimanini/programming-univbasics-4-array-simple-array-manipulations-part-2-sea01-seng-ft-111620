@@ -1,8 +1,7 @@
- def using_concat(arrays)
-while @my_favorite_things.length > 2
-  array1 = ["raindrops on roses", "whiskers on kittens"]
-  array2 = ["sports cars", "flatiron school"]
-  array2.concat array1
-end
-return @all_my_favs
- end
+def using_concat(arrays)
+ @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
+
+ more_favs = ["sports cars", "flatiron school"]
+ 
+puts ["raindrops on roses", "whiskers on kittens"].concat([ "sports cars", "flatiron school"])
+end 
