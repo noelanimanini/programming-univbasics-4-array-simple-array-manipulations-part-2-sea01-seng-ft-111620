@@ -1,5 +1,4 @@
  def using_concat(arrays)
-@all_my_favs = []
 while
   array1 = ["raindrops on roses", "whiskers on kittens"]
   array2 = ["sports cars", "flatiron school"]
